@@ -6,3 +6,7 @@ One of the most intriguing aspects of lazy evaluation is its ability to support 
 
 Despite its advantages, lazy evaluation is not widely adopted in mainstream programming languages. Most languages follow a strictly evaluated approach, where values are computed eagerly, even if they may never be used. However, functional programming languages like OCaml embrace lazy evaluation as a core feature, enabling developers to leverage its benefits for certain use cases.
 
+## Reference youtube video
+
+[Lazy Evaluation by Philipp Hagenlocher](https://www.youtube.com/watch?v=KniIeHiEzdo "Lazy Evaluation in Python")
+
