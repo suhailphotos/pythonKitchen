@@ -1,5 +1,3 @@
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 import pandas as pd
 import os
 
@@ -9,15 +7,16 @@ class Netflix:
         self.other_data = pd.read_csv(other_dataset)
         self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
 
-    def find_potential_mismatches(self, threshold=90):
-        mismatched_titles = []
-        for title1 in self.combined_data['title']:
-            matches = process.extract(title1, self.combined_data['title'], scorer=fuzz.partial_ratio)
-            print(matches)
 
 if __name__ == "__main__":
-    netflix_path = f'{os.environ.get('PROJECT_ROOT')}/data/netflix_titles.csv'
-    print(netflix_path)
+    project_root = os.environ.get('PROJECT_ROOT')
+    netflix_path = f'{project_root}/data/netflix_titles.csv'
+    tmdb_path = f'{project_root}/data/TMDb_updated.CSV'
+    n = Netflix(netflix_path, tmdb_path)
+    print(len(n.netflix_data))
+    print(len(n.other_data))
+    print(len(n.combined_data))
+   
   
     
 
