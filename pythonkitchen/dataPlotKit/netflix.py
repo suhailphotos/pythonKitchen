@@ -1,6 +1,7 @@
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import pandas as pd
+import os
 
 class Netflix:
     def __init__(self, netlix_dataset: str, other_dataset: str):
@@ -12,9 +13,11 @@ class Netflix:
         mismatched_titles = []
         for title1 in self.combined_data['title']:
             matches = process.extract(title1, self.combined_data['title'], scorer=fuzz.partial_ratio)
-            for title2, score in matches:
-                if title1 != title2 and score < threshold:
-                    mismatched_titles.append((title1, title2, score))
-        return mismatched_titles
+            print(matches)
 
+if __name__ == "__main__":
+    netflix_path = f'{os.environ.get('PROJECT_ROOT')}/data/netflix_titles.csv'
+    print(netflix_path)
+  
+    
 
