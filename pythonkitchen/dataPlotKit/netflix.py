@@ -27,7 +27,7 @@ class Netflix:
         unmatched_titles = self.netflix_data[~self.netflix_data['title'].isin(merged_titles)]['title']
         imdb_titles = self.other_data['title'].unique()
         mismatches = []
-        with tqdm(total=len(unmatched_titles)) as pbar:`
+        with tqdm(total=len(unmatched_titles)) as pbar:
             for title in unmatched_titles:
                 matches = process.extractOne(title, imdb_titles, scorer=fuzz.ratio)
                 if matches and matches[1] >= self.threshold:
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     tmdb_path = f'{project_root}/data/TMDb_updated.CSV'
     cache_path = f'{project_root}/data/netflix_cache.pkl'
     
-    n = Netflix(netflix_path, tmdb_path, 90, false, cache_path)
+    n = Netflix(netflix_path, tmdb_path, 90, False, cache_path)
  
     
 
