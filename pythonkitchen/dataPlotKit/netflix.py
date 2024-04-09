@@ -12,24 +12,24 @@ class Netflix:
         self.force_cache = force_cache
         self.cache_path = cache_path or os.path.realpath(__file__)  # If cache_path is not provided, use a default cache location
         self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
-        self.find_mismatches()
+        self.find_mismatches(97)
 
-    def find_mismatches(self):
+    def find_mismatches(self, similarity_score_filter):
         if self.force_cache or not os.path.exists(self.cache_path):
             self._cache_mismatches()
-            self._append_cache_data(97)
+            self._append_cache_data(similarity_score_filter)
             self.force_cache = False
         else:
-            self._append_cache_data(97)
+            self._append_cache_data(similarity_score_filter)
 
     def _cache_mismatches(self):
         merged_titles = self.combined_data['title'].unique()
         unmatched_titles = self.netflix_data[~self.netflix_data['title'].isin(merged_titles)]['title']
-        imdb_titles = self.other_data['title'].unique()
+        other_titles = self.other_data['title'].unique()
         mismatches = []
         with tqdm(total=len(unmatched_titles)) as pbar:
             for title in unmatched_titles:
-                matches = process.extractOne(title, imdb_titles, scorer=fuzz.ratio)
+                matches = process.extractOne(title, other_titles, scorer=fuzz.ratio)
                 if matches and matches[1] >= self.threshold:
                     mismatches.append((title, matches[0], matches[1]))
                 pbar.update(1) # update process bar
@@ -51,6 +51,7 @@ if __name__ == "__main__":
     cache_path = f'{project_root}/data/netflix_cache.pkl'
     
     n = Netflix(netflix_path, tmdb_path, 90, False, cache_path)
+    n.combined_data.to_csv(f'{project_root}/data/netflix_combined.csv')
  
     
 
