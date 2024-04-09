@@ -11,7 +11,7 @@ class Netflix:
         self.threshold = threshold
         self.force_cache = force_cache
         self.cache_path = cache_path or os.path.realpath(__file__)  # If cache_path is not provided, use a default cache location
-        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
+        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner', suffixes=('_neflix', '_imdb'))
         self.find_mismatches(97)
 
     def find_mismatches(self, similarity_score_filter):
@@ -40,9 +40,14 @@ class Netflix:
         while not os.path.exists(self.cache_path):
             time.sleep(1)
         mismatches_df = pd.read_pickle(self.cache_path)
-        matching_rows = mismatches_df[mismatches_df['Similarity Score'] > min_similarity_score]
-        matching_rows = self.other_data[self.other_data['title'].isin(matching_rows['IMDb Title'])]
-        self.combined_data = pd.concat([self.combined_data, matching_rows], ignore_index=True)
+        if 'IMDb Title' in mismatches_df.columns:
+            merged_data = pd.merge(mismatches_df, self.other_data, left_on='IMDb Title', right_on='title', how='inner')
+            merged_data = merged_data.add_suffix('_imdb')  # Add suffixes to match self.combined_data
+        else:
+            # Assuming mismatches_df contains Netflix titles
+            merged_data = pd.merge(mismatches_df, self.netflix_data, left_on='Netflix Title', right_on='title', how='inner')
+            merged_data = merged_data.add_suffix('_netflix')  # Add suffixes to match self.combined_data
+        self.combined_data = pd.concat([self.combined_data, merged_data], ignore_index=True)
 
 if __name__ == "__main__":
     project_root = os.environ.get('PROJECT_ROOT')
@@ -52,6 +57,3 @@ if __name__ == "__main__":
     
     n = Netflix(netflix_path, tmdb_path, 90, False, cache_path)
     n.combined_data.to_csv(f'{project_root}/data/netflix_combined.csv')
- 
-    
-
