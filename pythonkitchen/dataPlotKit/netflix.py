@@ -47,7 +47,7 @@ class Netflix:
             # Assuming mismatches_df contains Netflix titles
             merged_data = pd.merge(mismatches_df, self.netflix_data, left_on='Netflix Title', right_on='title', how='inner')
             merged_data = merged_data.add_suffix('_netflix')  # Add suffixes to match self.combined_data
-        self.combined_data = pd.concat([self.combined_data, merged_data], ignore_index=True)
+        #self.combined_data = pd.concat([self.combined_data, merged_data], ignore_index=True)
 
 if __name__ == "__main__":
     project_root = os.environ.get('PROJECT_ROOT')
