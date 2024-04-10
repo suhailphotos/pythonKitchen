@@ -10,8 +10,17 @@ class Netflix:
         self.other_data = pd.read_csv(other_dataset)
         self.threshold = threshold
         self.force_cache = force_cache
+        netflix_col_ren_mapping = {
+                column: f'{column}_netflix' for column in self.netflix_data.columns if column!='title'
+                }
+
+        other_col_ren_mapping = {
+                column: f'{column}_other' for column in self.other_data.columns if column!='title'
+                }
+        self.netflix_data = self.netflix_data.rename(columns=netflix_col_ren_mapping)
+        self.other_data = self.other_data.rename(columns=other_col_ren_mapping)
         self.cache_path = cache_path or os.path.realpath(__file__)  # If cache_path is not provided, use a default cache location
-        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner', suffixes=('_neflix', '_imdb'))
+        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
         self.find_mismatches(97)
 
     def find_mismatches(self, similarity_score_filter):

@@ -8,13 +8,13 @@ def merge_data():
     netflix_data = pd.read_csv(netflix_path)
     tmdb_data = pd.read_csv(tmdb_path)
     
-    # Rename columns in tmdb_data to avoid suffixes
-    tmdb_data = tmdb_data.rename(columns={
-        'overview': 'overview_imdb',
-        'original_language': 'original_language_imdb',
-        'vote_count': 'vote_count_imdb',
-        'vote_average': 'vote_average_imdb'
-    })
+    # Get column names from tmdb_data and prefix them with '_imdb'
+    column_rename_mapping = {
+        column: f'{column}_imdb' for column in tmdb_data.columns if column!='title'
+    }
+    
+    # Rename columns in tmdb_data using the dynamically generated dictionary
+    tmdb_data = tmdb_data.rename(columns=column_rename_mapping)
     
     # Merge the datasets
     merged_data = pd.merge(netflix_data, tmdb_data, on='title')
