@@ -1,7 +1,9 @@
-import time
+import time, os
 from fuzzywuzzy import fuzz, process
+import matplotlib.pyplot as plt
+import matplotlib
+import numpy as np
 import pandas as pd
-import os
 from tqdm import tqdm
 
 class Netflix:
@@ -55,6 +57,9 @@ class Netflix:
         mismatch_combined_data.rename(columns={'title_netflix':'title'}, inplace=True)
         mismatch_combined_data=mismatch_combined_data[mismatch_combined_data['Similarity Score_other']>=min_similarity_score]
         self.combined_data = pd.concat([self.combined_data, mismatch_combined_data], axis=0, join='inner', ignore_index=True)
+
+    def generate_line_plots():
+        pass
 
 if __name__ == "__main__":
     project_root = os.environ.get('PROJECT_ROOT')
