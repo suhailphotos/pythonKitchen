@@ -22,7 +22,7 @@ class Netflix:
         self.netflix_data = self.netflix_data.rename(columns=netflix_col_ren_mapping)
         self.other_data = self.other_data.rename(columns=other_col_ren_mapping)
         self.cache_path = cache_path or os.path.realpath(__file__)  # If cache_path is not provided, use a default cache location
-        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='left', indicator='Category')
+        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
         self.find_mismatches(97)
 
     def find_mismatches(self, similarity_score_filter):
@@ -64,7 +64,7 @@ class Netflix:
 if __name__ == "__main__":
     project_root = os.environ.get('PROJECT_ROOT')
     netflix_path = f'{project_root}/data/netflix_titles.csv'
-    tmdb_path = f'{project_root}/data/TMDb_updated.CSV'
+    tmdb_path = f'{project_root}/data/TMDb_top_1000.CSV'
     cache_path = f'{project_root}/data/netflix_cache.pkl'
     
     n = Netflix(netflix_path, tmdb_path, 90, False, cache_path)
