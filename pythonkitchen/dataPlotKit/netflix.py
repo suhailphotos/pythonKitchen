@@ -22,7 +22,7 @@ class Netflix:
         self.netflix_data = self.netflix_data.rename(columns=netflix_col_ren_mapping)
         self.other_data = self.other_data.rename(columns=other_col_ren_mapping)
         self.cache_path = cache_path or os.path.realpath(__file__)  # If cache_path is not provided, use a default cache location
-        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='inner')
+        self.combined_data = pd.merge(self.netflix_data, self.other_data, on='title', how='left', indicator='Category')
         self.find_mismatches(97)
 
     def find_mismatches(self, similarity_score_filter):
@@ -58,7 +58,7 @@ class Netflix:
         mismatch_combined_data=mismatch_combined_data[mismatch_combined_data['Similarity Score_other']>=min_similarity_score]
         self.combined_data = pd.concat([self.combined_data, mismatch_combined_data], axis=0, join='inner', ignore_index=True)
 
-    def generate_line_plots():
+    def generate_line_plots(self):
         pass
 
 if __name__ == "__main__":
