@@ -22,7 +22,7 @@ This system allows you to standardize the file names of HDRIs downloaded from va
             └── script2.py
 ```
 
-### `VFX_LIB_PATH` variable stores Assests Library Root
+### `VFX_LIB` variable stores Assests Library Root
 
 ```
     VFX_LIB/
