@@ -2,12 +2,12 @@ import os
 import json
 import shutil
 
-# Get the VFX_LIB_PATH environment variable
-VFX_LIB_PATH = os.getenv('VFX_LIB_PATH')
+# Get the VFX_LIB environment variable
+VFX_LIB = os.getenv('VFX_LIB')
 
 # Define the paths
-ingest_folder = os.path.join(VFX_LIB_PATH, 'ingest', 'textures', 'hdri')
-hdri_folder = os.path.join(VFX_LIB_PATH, 'hdri')
+ingest_folder = os.path.join(VFX_LIB, 'ingest', 'textures', 'hdri')
+hdri_folder = os.path.join(VFX_LIB, 'hdri')
 renamed_json_path = os.path.join(os.path.dirname(__file__), 'textures_renamed.json')
 
 # Load JSON files
