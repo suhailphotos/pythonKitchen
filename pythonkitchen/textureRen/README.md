@@ -6,7 +6,7 @@ This system allows you to standardize the file names of HDRIs downloaded from va
 
 ### With `pythonKitchen` as Root:
 
- ```
+```
     pythonKitchen/
     │
     pythonKitchen/
