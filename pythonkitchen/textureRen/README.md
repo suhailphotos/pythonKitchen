@@ -25,14 +25,14 @@ This system allows you to standardize the file names of HDRIs downloaded from va
 ### `VFX_LIB_PATH` variable stores Assests Library Root
 
 ```
-    VFX_LIB_PATH/
+    VFX_LIB/
     │
     ├── ingest/
     │   └── textures/
     │       └── hdri/
     │
     ├── hdri/
-    │
+    
 ```
 
 
@@ -43,7 +43,7 @@ This system allows you to standardize the file names of HDRIs downloaded from va
 - `hdri.json`: JSON file containing the HDRIs data.
 - `namingcodes.json`: JSON file containing the naming codes.
 - `textures_renamed.json`: JSON file containing information about renamed HDRIs.
-- `$VFX_LIB_PATH/ingest/textures/hdri/`: Folder where you download HDRIs from various sources.
+- `$VFX_LIB/ingest/textures/hdri/`: Folder where you download HDRIs from various sources.
 - `scripts/`: Folder containing Python scripts for renaming HDRIs.
 - `script1.py`: Script to list HDRIs and create CSV with file attributes.
 - `script2.py`: Script to rename files and update renamed JSON.
