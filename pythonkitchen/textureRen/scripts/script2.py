@@ -11,6 +11,7 @@ ingest_folder = os.path.join(ASSET_INGEST_DIR, 'textures', 'hdri')
 hdri_folder = os.path.join(VFX_LIB, 'hdri')
 renamed_json_path = os.path.join(os.path.dirname(__file__), 'textures_renamed.json')
 
+
 # Load JSON files
 def load_json(file_path):
     with open(file_path, 'r') as json_file:
@@ -66,4 +67,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
