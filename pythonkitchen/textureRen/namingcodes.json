@@ -21,7 +21,10 @@
     "sce12":"indoorRoom",
     "sce13":"sunny",
     "sce14":"openField",
-    "sce15":"overcast"
+    "sce15":"overcast",
+    "sce16":"sunflowers",
+    "sce17":"mudRoad",
+    "sce18":"treesHade"
   },
   "clouds":{
     "cl01":"cloudy",
