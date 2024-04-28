@@ -3,10 +3,11 @@ import json
 import shutil
 
 # Get the VFX_LIB environment variable
+ASSET_INGEST_DIR = os.getenv('ASSET_INGEST_DIR')
 VFX_LIB = os.getenv('VFX_LIB')
 
 # Define the paths
-ingest_folder = os.path.join(VFX_LIB, 'ingest', 'textures', 'hdri')
+ingest_folder = os.path.join(ASSET_INGEST_DIR, 'textures', 'hdri')
 hdri_folder = os.path.join(VFX_LIB, 'hdri')
 renamed_json_path = os.path.join(os.path.dirname(__file__), 'textures_renamed.json')
 
@@ -17,8 +18,8 @@ def load_json(file_path):
 
 # Rename files and update JSON
 def rename_files_and_update_json():
-    hdri_data = load_json('hdri.json')
-    naming_codes = load_json('namingcodes.json')
+    hdri_data = load_json('../hdri.json')
+    naming_codes = load_json('../namingcodes.json')
     renamed_hdri_data = []
 
     for old_filename, attributes in hdri_data['hdri'].items():

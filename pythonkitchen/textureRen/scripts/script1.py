@@ -2,10 +2,10 @@ import os
 import csv
 
 # Get the VFX_LIB environment variable
-VFX_LIB = os.getenv('VFX_LIB')
+ASSET_INGEST_DIR = os.getenv('ASSET_INGEST_DIR')
 
 # Define the path to the ingest folder
-ingest_folder = os.path.join(VFX_LIB, 'ingest', 'textures', 'hdri')
+ingest_folder = os.path.join(ASSET_INGEST_DIR, 'textures', 'hdri')
 
 # Function to list HDRIs and create CSV
 def list_hdri_files(ingest_folder):
