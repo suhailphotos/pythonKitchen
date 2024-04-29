@@ -509,6 +509,36 @@
             "resol": "6k",
             "variant": "v01",
             "old_file_name": "WatersEdge.exr"
+        },
+        "hdriHaven_mudRoad_cloudy_dark_sRGBlinear_v01.exr": {
+            "source": "hdriHaven",
+            "scene": "mudRoad",
+            "clouds": "cloudy",
+            "hour": "dark",
+            "color": "sRGBlinear",
+            "resol": "4k",
+            "variant": "v01",
+            "old_file_name": "mud_road_puresky_4k.exr"
+        },
+        "hdriHaven_sunflowers_partlyCloudy_bright_sRGBlinear_v01.exr": {
+            "source": "hdriHaven",
+            "scene": "sunflowers",
+            "clouds": "partlyCloudy",
+            "hour": "bright",
+            "color": "sRGBlinear",
+            "resol": "4k",
+            "variant": "v01",
+            "old_file_name": "sunflowers_puresky_4k.exr"
+        },
+        "hdriHaven_treesHade_opensky_bright_sRGBlinear_v01.exr": {
+            "source": "hdriHaven",
+            "scene": "treesHade",
+            "clouds": "opensky",
+            "hour": "bright",
+            "color": "sRGBlinear",
+            "resol": "4k",
+            "variant": "v01",
+            "old_file_name": "tief_etz_4k.exr"
         }
     }
 }
