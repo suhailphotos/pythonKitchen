@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-class Netlix:
+class Netflix:
     def __init__(self, netflix_dataset: str, tmdb_dataset: str, tmdb_top_1000: str, threshold: int = 90, force_cache: bool = False, cache_path: str = None):
         self.netflix_dataset = pd.read_csv(netflix_dataset)
         self.tmdb_dataset = pd.read_csv(tmdb_dataset)
@@ -29,13 +29,14 @@ class Netlix:
         self.tmdb_dataset_combined = pd.merge(self.tmdb_dataset, self.tmdb_top_1000, on='title', how='inner')
         self.tmdb_dataset_combined.to_csv(f'{os.environ.get('PROJECT_ROOT')}/data/tmdb_merge.csv')
 
-
-if __name__=='__main__':
+def main():
     project_root = os.environ.get('PROJECT_ROOT')
     netflix_dataset = f'{project_root}/data/netflix_titles.csv'
     tmdb_dataset = f'{project_root}/data/imdb_movies.csv'
     tmdb_top_1000 = f'{project_root}/data/TMDb_top_1000.CSV'
-    n = Netlix(netflix_dataset, tmdb_dataset, tmdb_top_1000, 90, False)
+    n = Netflix(netflix_dataset, tmdb_dataset, tmdb_top_1000, 90, False)
 
+if __name__=='__main__':
+    main()
 
 

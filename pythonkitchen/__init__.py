@@ -1,2 +1,2 @@
-from . import  dataPlotKit
+from . import dataPlotKit
 from . import lazyEval
