@@ -1,9 +1,11 @@
 [tool.poetry]
-name = "pythonkitchen"
+name = "pythonKitchen"
 version = "0.1.0"
-description = ""
+description = "Package description for pythonKitchen"
 authors = ["Suhail <suhailece@gmail.com>"]
+license = "MIT"
 readme = "README.md"
+packages = [{include = "pythonkitchen", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
