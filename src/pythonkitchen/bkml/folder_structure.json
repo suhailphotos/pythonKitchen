@@ -1,7 +1,1282 @@
 [
   {
     "folder_name": "Bookmarks Bar",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Bookmarks Menu",
+        "subfolders": []
+      },
+      {
+        "folder_name": "CGI",
+        "subfolders": [
+          {
+            "folder_name": "Tutorial Series",
+            "subfolders": [
+              {
+                "folder_name": "Geometry Essentials",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Hipflask",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Houdini COPS",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Instancing",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Python for Houdini",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Solaris",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Subway Indie Pixel",
+                "subfolders": []
+              },
+              {
+                "folder_name": "VEX for Algorithmic Design",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Geometry Essentials",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Hipflask",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Houdini COPS",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Instancing",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Python for Houdini",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Solaris",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Subway Indie Pixel",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX for Algorithmic Design",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Render Engines",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Utilities",
+            "subfolders": []
+          },
+          {
+            "folder_name": "MaterialX",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Tutorial Series",
+        "subfolders": [
+          {
+            "folder_name": "Geometry Essentials",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Hipflask",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Houdini COPS",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Instancing",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Python for Houdini",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Solaris",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Subway Indie Pixel",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX for Algorithmic Design",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Geometry Essentials",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Hipflask",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Houdini COPS",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Instancing",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Python for Houdini",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Solaris",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Subway Indie Pixel",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX for Algorithmic Design",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Render Engines",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Utilities",
+        "subfolders": []
+      },
+      {
+        "folder_name": "MaterialX",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Favorites",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Greg",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Houdini",
+        "subfolders": [
+          {
+            "folder_name": "VEX",
+            "subfolders": [
+              {
+                "folder_name": "Expression Functions",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_VEX Functions",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Groups",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Parameter expressions",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Using VEX expressions",
+                "subfolders": []
+              },
+              {
+                "folder_name": "VEX language reference",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Functions",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Expression Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_VEX Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Groups",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Parameter expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Using VEX expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX language reference",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Nodes",
+            "subfolders": [
+              {
+                "folder_name": "SOP",
+                "subfolders": []
+              },
+              {
+                "folder_name": "LOP",
+                "subfolders": []
+              },
+              {
+                "folder_name": "VOP",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "SOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "LOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "HScript",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Python Scripting",
+            "subfolders": [
+              {
+                "folder_name": "hou Package",
+                "subfolders": [
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "Funtion",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "Modules",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "hou Package",
+                "subfolders": [
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "Class",
+                    "subfolders": [
+                      {
+                        "folder_name": "_hou.OpNode",
+                        "subfolders": []
+                      },
+                      {
+                        "folder_name": "_hou.Parm",
+                        "subfolders": []
+                      }
+                    ]
+                  },
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "Funtion",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "Modules",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Ref",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Ref",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "VEX",
+        "subfolders": [
+          {
+            "folder_name": "Expression Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_VEX Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Groups",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Parameter expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Using VEX expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX language reference",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Functions",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Expression Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_VEX Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Groups",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Parameter expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Using VEX expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX language reference",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Nodes",
+        "subfolders": [
+          {
+            "folder_name": "SOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "LOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VOP",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "SOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "LOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "HScript",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Python Scripting",
+        "subfolders": [
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Ref",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Funtion",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Modules",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Ref",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Reading List",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Reference",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Social Media",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Tab Group Favorites",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Tech",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Bookmarks Menu",
@@ -9,11 +1284,126 @@
   },
   {
     "folder_name": "CGI",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Tutorial Series",
+        "subfolders": [
+          {
+            "folder_name": "Geometry Essentials",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Hipflask",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Houdini COPS",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Instancing",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Python for Houdini",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Solaris",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Subway Indie Pixel",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX for Algorithmic Design",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Geometry Essentials",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Hipflask",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Houdini COPS",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Instancing",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Python for Houdini",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Solaris",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Subway Indie Pixel",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX for Algorithmic Design",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Render Engines",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Utilities",
+        "subfolders": []
+      },
+      {
+        "folder_name": "MaterialX",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Tutorial Series",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Geometry Essentials",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Hipflask",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Houdini COPS",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Instancing",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Python for Houdini",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Solaris",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Subway Indie Pixel",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX for Algorithmic Design",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Geometry Essentials",
@@ -69,11 +1459,576 @@
   },
   {
     "folder_name": "Houdini",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "VEX",
+        "subfolders": [
+          {
+            "folder_name": "Expression Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_VEX Functions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Groups",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Parameter expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Using VEX expressions",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VEX language reference",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Functions",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Expression Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_VEX Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Groups",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Parameter expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Using VEX expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX language reference",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Nodes",
+        "subfolders": [
+          {
+            "folder_name": "SOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "LOP",
+            "subfolders": []
+          },
+          {
+            "folder_name": "VOP",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "SOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "LOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "HScript",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Python Scripting",
+        "subfolders": [
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "hou Package",
+            "subfolders": [
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "Class",
+                "subfolders": [
+                  {
+                    "folder_name": "_hou.OpNode",
+                    "subfolders": []
+                  },
+                  {
+                    "folder_name": "_hou.Parm",
+                    "subfolders": []
+                  }
+                ]
+              },
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Funtion",
+                "subfolders": []
+              },
+              {
+                "folder_name": "Modules",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Ref",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Funtion",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Modules",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Ref",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "VEX",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Expression Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_VEX Functions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Groups",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Parameter expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Using VEX expressions",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VEX language reference",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Functions",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Expression Functions",
@@ -105,7 +2060,20 @@
   },
   {
     "folder_name": "Nodes",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "SOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "LOP",
+        "subfolders": []
+      },
+      {
+        "folder_name": "VOP",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "SOP",
@@ -125,31 +2093,424 @@
   },
   {
     "folder_name": "Python Scripting",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "hou Package",
+        "subfolders": [
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "Class",
+            "subfolders": [
+              {
+                "folder_name": "_hou.OpNode",
+                "subfolders": []
+              },
+              {
+                "folder_name": "_hou.Parm",
+                "subfolders": []
+              }
+            ]
+          },
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Funtion",
+            "subfolders": []
+          },
+          {
+            "folder_name": "Modules",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Funtion",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Modules",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Ref",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "hou Package",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Funtion",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Modules",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "hou Package",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "Class",
+        "subfolders": [
+          {
+            "folder_name": "_hou.OpNode",
+            "subfolders": []
+          },
+          {
+            "folder_name": "_hou.Parm",
+            "subfolders": []
+          }
+        ]
+      },
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Funtion",
+        "subfolders": []
+      },
+      {
+        "folder_name": "Modules",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Class",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Class",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Class",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "Class",
-    "subfolders": []
+    "subfolders": [
+      {
+        "folder_name": "_hou.OpNode",
+        "subfolders": []
+      },
+      {
+        "folder_name": "_hou.Parm",
+        "subfolders": []
+      }
+    ]
   },
   {
     "folder_name": "_hou.OpNode",
