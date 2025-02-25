@@ -22,9 +22,10 @@ python-levenshtein = "^0.25.0"
 tqdm = "^4.66.2"
 beautifulsoup4 = "^4.12.3"
 prefect = {extras = ["github"], version = "^3.1.5"}
-incept = "^0.1.4"
+incept = "^0.1.11"
 notionmanager = "^0.1.2"
 oauthmanager = "^0.1.1"
+tabulate = "^0.9.0"
 
 [build-system]
 requires = ["poetry-core"]
