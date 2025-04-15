@@ -1621,13 +1621,13 @@ type = ["pytest-mypy"]
 
 [[package]]
 name = "incept"
-version = "0.1.59"
+version = "0.1.60"
 description = "A Python package for managing courses, projects, and directories with Notion integration."
 optional = false
 python-versions = "<4.0.0,>=3.11.7"
 files = [
-    {file = "incept-0.1.59-py3-none-any.whl", hash = "sha256:749bf4e9b0c4e2e7de717fc29985a6e3b0a9d70da187ceec800f99568156afbf"},
-    {file = "incept-0.1.59.tar.gz", hash = "sha256:5528de1bd81dc066efeab4e80afd3418555e28d63e15bfc4868b0015110111e1"},
+    {file = "incept-0.1.60-py3-none-any.whl", hash = "sha256:37d59cc2c614996ffd00c2c08639a518ca5fdf9411f786671f9cd44313c18c66"},
+    {file = "incept-0.1.60.tar.gz", hash = "sha256:35087a1e730c088ab6f1f2d5f8d83ea32c9440c0a19b25de53796c2e0f181747"},
 ]
 
 [package.dependencies]
