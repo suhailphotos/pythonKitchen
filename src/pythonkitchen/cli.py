@@ -1,3 +1,5 @@
+# src/pythonkitchen/cli.py
+
 import os
 import sys
 import click
@@ -10,7 +12,7 @@ def get_dropbox_dir() -> Path:
     Determine the Dropbox directory:
     - Use $DROPBOX if set
     - On macOS: ~/Library/CloudStorage/Dropbox
-    - On Windows: C:\Users\<User>\Dropbox
+    - On Windows: C:/Users/<User>/Dropbox
     - Otherwise: ~/Dropbox
     """
     env = os.getenv('DROPBOX')
