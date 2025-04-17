@@ -7,6 +7,9 @@ license = "MIT"
 readme = "README.md"
 packages = [{include = "pythonkitchen", from = "src"}]
 
+[tool.poetry.scripts]
+pythonkitchen = "pythonkitchen.cli:main"
+
 [tool.poetry.dependencies]
 python = "^3.11.7"
 numpy = "^1.26.4"
