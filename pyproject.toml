@@ -16,6 +16,14 @@ prefect = {extras = ["github"], version = "^3.1.5"}
 incept = "^0.1.78"           # ^ plus your new patch
 oauthmanager = "^0.1.1"
 tabulate = "^0.9.0"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+browser-cookie3 = "^0.20.1"
+openpyxl = "^3.1.5"
+beautifulsoup4 = "^4.13.4"
+selenium = "^4.31.0"
+webdriver-manager = "^4.0.2"
+openai = "^1.76.0"
 
 [build-system]
 requires = ["poetry-core"]
