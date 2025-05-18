@@ -80,6 +80,8 @@ def split_course_and_weeks(raw: str) -> (str, List[Dict]):
             "full_description": re.sub(r"\s+", " ", body).strip(),
             "short_description": ""
         })
+    # sort chapters by their numeric index (e.g., "Week 1", "Chapter 2")
+    chapters.sort(key=lambda ch: int(re.search(r'\d+', ch['name']).group()))
     return course_desc, chapters
 
 # —————————————————————————————————————————————————————
