@@ -61,17 +61,20 @@ def generate_lesson_description(chapter_desc: str, lesson_name: str) -> str:
     system = {
         "role": "system",
         "content": (
-            "You are a documentation assistant. "
-            "Provide a clear, factual description in two sentences. "
-            "Do not use marketing or promotional language."
+            "You are a documentation assistant.  "
+            "Your job is to write a **two-sentence**, purely factual description of a *single* lesson.  "
+            "Only use the chapter description if it directly informs this lesson; "
+            "otherwise, ignore it and focus solely on the lesson title.  "
+            "Never repeat unrelated chapter-level topics, and do not use any marketing language."
         )
     }
     user = {
         "role": "user",
         "content": (
-            f"Chapter description:\n{chapter_desc}\n\n"
+            f"Chapter context (for reference only):\n{chapter_desc}\n\n"
             f"Lesson title:\n{lesson_name}\n\n"
-            "Provide a concise, two-sentence description focusing on the lesson content."
+            "Based on the lesson title (and chapter context *only if relevant*), "
+            "write a concise, two-sentence description."
         )
     }
     resp = openai.chat.completions.create(
