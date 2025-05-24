@@ -10,6 +10,27 @@ import pandas as pd
 import openai
 from dotenv import load_dotenv
 
+
+# —————————————————————————————
+# pull only the sentence(s) in chapter_desc that mention words from lesson_name
+# —————————————————————————————
+import re
+
+def extract_relevant_context(chapter_desc: str, lesson_name: str) -> str:
+    """
+    Return the first sentence in chapter_desc that contains any keyword from lesson_name.
+    If none match, return empty string.
+    """
+    # split into sentences
+    sentences = re.split(r'(?<=[.!?])\s+', chapter_desc)
+    # get alphanumeric tokens from the lesson title
+    keywords = re.findall(r"[A-Za-z0-9]+", lesson_name)
+    for sent in sentences:
+        lower = sent.lower()
+        if any(kw.lower() in lower for kw in keywords):
+            return sent.strip()
+    return ""
+
 # —————————————————————————————
 # HELPER: Determine package name dynamically
 # —————————————————————————————
@@ -70,12 +91,24 @@ def generate_lesson_description(chapter_desc: str, lesson_name: str) -> str:
     }
     user = {
         "role": "user",
-        "content": (
+    }
+    # if no relevant context, omit the chapter snippet entirely
+    if not chapter_desc:
+        user_content = (
+            f"Lesson title:\n{lesson_name}\n\n"
+            "Write a concise, two-sentence, factual description of *just* this lesson. "
+            "Do not infer anything beyond what the title states."
+        )
+    else:
+        user_content = (
             f"Chapter context (for reference only):\n{chapter_desc}\n\n"
             f"Lesson title:\n{lesson_name}\n\n"
             "Based on the lesson title (and chapter context *only if relevant*), "
             "write a concise, two-sentence description."
         )
+    user = {
+        "role": "user",
+        "content": user_content
     }
     resp = openai.chat.completions.create(
         model="gpt-4o",
@@ -153,9 +186,11 @@ if __name__ == "__main__":
         except (ValueError, TypeError):
             descriptions.append("")
             continue
+        # 2) EXTRACT only the sentence(s) relevant to this lesson
+        raw_context = chap_map.get(chap_idx, "")
+        chapter_desc = extract_relevant_context(raw_context, row['name'])
         chap_idx = int(row['chapter_index'])
         if chap_idx is not None and (allowed is None or chap_idx in allowed):
-            chapter_desc = chap_map.get(chap_idx, "")
             lesson_name = row['name']
             descriptions.append(
                 generate_lesson_description(chapter_desc, lesson_name)
