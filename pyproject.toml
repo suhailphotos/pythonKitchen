@@ -28,6 +28,7 @@ pillow = "^11.2.1"
 pytesseract = "^0.3.13"
 python-dotenv = "^1.1.0"
 pypdf = "^5.5.0"
+parivaha = "^0.1.4"
 
 [build-system]
 requires = ["poetry-core"]

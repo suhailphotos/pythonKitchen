@@ -1775,13 +1775,13 @@ httpx = ">=0.23.0"
 
 [[package]]
 name = "notionmanager"
-version = "0.1.23"
+version = "0.1.24"
 description = "A Python package for managing courses, projects, and directories with Notion integration."
 optional = false
 python-versions = "<4.0.0,>=3.11.7"
 files = [
-    {file = "notionmanager-0.1.23-py3-none-any.whl", hash = "sha256:6803efa73c14d08630959d04bb420f86ed30c7f44204cb7d05b72f904cf5f1a2"},
-    {file = "notionmanager-0.1.23.tar.gz", hash = "sha256:6a8bd45c097aebd21d1e5a05228e19f5899d8b87075bc784f5fa1d617c6efb53"},
+    {file = "notionmanager-0.1.24-py3-none-any.whl", hash = "sha256:d874dc48c6ea20d0de3338618740e6b5671efd50be596aa5f686e11fa16669a0"},
+    {file = "notionmanager-0.1.24.tar.gz", hash = "sha256:2d01d050013bf1d06a89d3827addc7cc47a63ece6de5d6ea1ad67b94078419df"},
 ]
 
 [package.dependencies]
@@ -2128,6 +2128,23 @@ spss = ["pyreadstat (>=1.2.0)"]
 sql-other = ["SQLAlchemy (>=2.0.0)", "adbc-driver-postgresql (>=0.8.0)", "adbc-driver-sqlite (>=0.8.0)"]
 test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
+
+[[package]]
+name = "parivaha"
+version = "0.1.4"
+description = ""
+optional = false
+python-versions = "<4.0.0,>=3.11.7"
+files = [
+    {file = "parivaha-0.1.4-py3-none-any.whl", hash = "sha256:8e172cdc2d17b445b270b9d2209c3e79626b71299d43a4c00f16192bd1359af4"},
+    {file = "parivaha-0.1.4.tar.gz", hash = "sha256:830674cdcbfdca2fd8976cbf42e0c90435c3770025f631d3a9e524c367403bf3"},
+]
+
+[package.dependencies]
+click = ">=8.1,<9.0"
+notionmanager = ">=0.1.24,<0.2.0"
+python-dotenv = ">=1.0,<2.0"
+python-frontmatter = ">=1.1,<2.0"
 
 [[package]]
 name = "pathspec"
@@ -2960,6 +2977,24 @@ files = [
 
 [package.extras]
 cli = ["click (>=5.0)"]
+
+[[package]]
+name = "python-frontmatter"
+version = "1.1.0"
+description = "Parse and manage posts with YAML (or other) frontmatter"
+optional = false
+python-versions = "*"
+files = [
+    {file = "python-frontmatter-1.1.0.tar.gz", hash = "sha256:7118d2bd56af9149625745c58c9b51fb67e8d1294a0c76796dafdc72c36e5f6d"},
+    {file = "python_frontmatter-1.1.0-py3-none-any.whl", hash = "sha256:335465556358d9d0e6c98bbeb69b1c969f2a4a21360587b9873bfc3b213407c1"},
+]
+
+[package.dependencies]
+PyYAML = "*"
+
+[package.extras]
+docs = ["sphinx"]
+test = ["mypy", "pyaml", "pytest", "toml", "types-PyYAML", "types-toml"]
 
 [[package]]
 name = "python-slugify"
@@ -4477,4 +4512,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11.7"
-content-hash = "12cd505db30343c488254aa3146414686dfd355f93b6a3633e5c28d7a8246304"
+content-hash = "2401478665c440cd361eca25a0e703e279bce8e35857ba35827a28783e0ced3c"
