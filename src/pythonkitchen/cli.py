@@ -50,6 +50,22 @@ def restore(job_name, version):
     """Restore files for a given job and version."""
     restore_job(CONFIG_PATH, job_name, version)
 
+@main.command("export-project")
+@click.option(
+    "--root", "root", required=True, type=click.Path(exists=True, file_okay=False),
+    help="Root folder to export (recursively)."
+)
+@click.option(
+    "--output", "output_path", default=None, type=click.Path(file_okay=True, dir_okay=False),
+    help="Output file path (default: print to stdout)"
+)
+def export_project_cli(root, output_path):
+    """
+    Exports the folder structure and all .py/.json files for ChatGPT context.
+    """
+    from pythonkitchen.project_export import export_project
+    export_project(root, output_path)
+
 if __name__ == '__main__':
     main()
 
