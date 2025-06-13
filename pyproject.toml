@@ -29,6 +29,7 @@ pytesseract = "^0.3.13"
 python-dotenv = "^1.1.0"
 pypdf = "^5.5.0"
 parivaha = "^0.1.4"
+notion-client = "^2.3.0"
 
 [build-system]
 requires = ["poetry-core"]
