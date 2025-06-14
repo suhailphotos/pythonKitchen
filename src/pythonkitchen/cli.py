@@ -70,6 +70,31 @@ def export_project_cli(root, output_path, include_env):
     from pythonkitchen.project_export import export_project
     export_project(root, output_path=output_path, include_env=include_env)
 
+@main.command("pypi-availability")
+@click.option("--names", required=True, help="Comma-separated list of candidate names.")
+@click.option("--build", is_flag=True, help="Attempt to actually publish dummy package for each available name.")
+def pypi_availability(names, build):
+    """
+    Checks PyPI for name availability, optionally attempts to publish a dummy package to 'lock' the first available name.
+    """
+    from pythonkitchen.pypiAvailablity import check_pypi_availability, try_publish_first_available
+
+    # Parse names
+    candidates = [n.strip() for n in names.split(",") if n.strip()]
+    available, taken = check_pypi_availability(candidates)
+
+    print("==== Results ====")
+    print("Taken:", ", ".join(taken) if taken else "None")
+    print("Available:", ", ".join(available) if available else "None")
+
+    if build and available:
+        print("Trying to lock the first available name...")
+        locked = try_publish_first_available(available)
+        if locked:
+            print(f"Locked and published: {locked}")
+        else:
+            print("Could not publish any available name.")
+
 if __name__ == '__main__':
     main()
 
