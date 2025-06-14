@@ -56,15 +56,19 @@ def restore(job_name, version):
     help="Root folder to export (recursively)."
 )
 @click.option(
-    "--output", "output_path", default=None, type=click.Path(file_okay=True, dir_okay=False),
-    help="Output file path (default: print to stdout)"
+    "--output", "output_path", required=False, type=click.Path(file_okay=True, dir_okay=False, writable=True),
+    help="Optional output file path. If not given, print to stdout."
 )
-def export_project_cli(root, output_path):
+@click.option(
+    "--include-env", is_flag=True, default=False,
+    help="Include .env files in export."
+)
+def export_project_cli(root, output_path, include_env):
     """
-    Exports the folder structure and all .py/.json files for ChatGPT context.
+    Exports the folder structure and all relevant project files for context.
     """
     from pythonkitchen.project_export import export_project
-    export_project(root, output_path)
+    export_project(root, output_path=output_path, include_env=include_env)
 
 if __name__ == '__main__':
     main()

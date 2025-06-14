@@ -5,6 +5,9 @@ SKIP_EXTS = {'.env'}
 SKIP_NAMES = {'.env'}
 SKIP_TREE_FILES = {'__pycache__', 'dist', '.git'}
 
+INCLUDE_EXTS = {'.py', '.json', '.yml', '.yaml', '.toml', '.txt', '.md'}
+INCLUDE_NAMES = {'Dockerfile', 'requirements.txt', 'pyproject.toml', '.env'}
+
 def build_tree(root):
     lines = []
     dir_count = 0
@@ -43,7 +46,7 @@ def build_tree(root):
     lines.append(f"\n{dir_count} directories, {file_count} files\n")
     return "\n".join(lines)
 
-def dump_code_files(root):
+def dump_code_files(root, include_env=False):
     blocks = []
     for dirpath, dirnames, filenames in os.walk(root):
         # Remove skipped folders from traversal
@@ -52,42 +55,47 @@ def dump_code_files(root):
             if fname in SKIP_NAMES or fname.startswith('.'):
                 continue
             ext = Path(fname).suffix.lower()
-            if ext not in ('.py', '.json'):
+            include_this = (
+                ext in INCLUDE_EXTS or
+                fname in INCLUDE_NAMES
+            )
+            # Always skip .env unless include_env is True
+            if fname == ".env" and not include_env:
+                continue
+            if not include_this:
                 continue
             # Skip files in .git or dist folders
             rel_dir = Path(dirpath).relative_to(root)
             if any(part in {'.git', 'dist'} for part in rel_dir.parts):
                 continue
             rel_path = Path(dirpath, fname).relative_to(root)
-            # Only print __init__.py if non-empty
-            if fname == '__init__.py':
-                try:
-                    with open(os.path.join(dirpath, fname), encoding="utf-8", errors="replace") as f:
-                        content = f.read().strip()
-                except Exception:
-                    continue
-                if not content:
-                    continue
-            else:
-                try:
-                    with open(os.path.join(dirpath, fname), encoding="utf-8", errors="replace") as f:
-                        content = f.read().strip()
-                except Exception:
-                    continue
-            lang = "python" if ext == ".py" else "json"
+            try:
+                with open(os.path.join(dirpath, fname), encoding="utf-8", errors="replace") as f:
+                    content = f.read().strip()
+            except Exception:
+                continue
+            if fname == '__init__.py' and not content:
+                continue
+            # Guess code block language
+            lang_map = {
+                ".py": "python", ".json": "json", ".yml": "yaml", ".yaml": "yaml",
+                ".toml": "toml", ".md": "markdown", ".env": "", ".txt": "", "Dockerfile": "docker"
+            }
+            lang = lang_map.get(ext, "")
+            if fname == "Dockerfile":
+                lang = "docker"
             blocks.append(f"path: {rel_path}")
-            blocks.append(f"```{lang}\n{content}\n```")
+            if lang:
+                blocks.append(f"```{lang}\n{content}\n```")
+            else:
+                blocks.append(f"```\n{content}\n```")
     return "\n\n".join(blocks)
 
-def export_project(root_path: str, output_path: str = None):
-    """
-    Generates a combined tree/code listing for the given root_path.
-    If output_path is given, writes to that file. Otherwise, prints to stdout.
-    """
+def export_project(root_path: str, output_path: str = None, include_env: bool = False):
     root = Path(root_path).resolve()
     text = []
     text.append(build_tree(root))
-    text.append(dump_code_files(root))
+    text.append(dump_code_files(root, include_env=include_env))
     full = "\n\n".join(text)
 
     if output_path:
