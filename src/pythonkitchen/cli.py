@@ -60,15 +60,26 @@ def restore(job_name, version):
     help="Optional output file path. If not given, print to stdout."
 )
 @click.option(
+    "--include", "include_list", default="",
+    help="Comma-separated list of filenames or extensions to always include, e.g. 'README.md,.env'."
+)
+@click.option(
     "--include-env", is_flag=True, default=False,
     help="Include .env files in export."
 )
-def export_project_cli(root, output_path, include_env):
+def export_project_cli(root, output_path, include_env, include_list):
     """
     Exports the folder structure and all relevant project files for context.
     """
     from pythonkitchen.project_export import export_project
-    export_project(root, output_path=output_path, include_env=include_env)
+    # build a set of overrides (strip whitespace, ignore empty)
+    overrides = {name.strip() for name in include_list.split(",") if name.strip()}
+    export_project(
+        root,
+        output_path=output_path,
+        include_env=include_env,
+        include_list=overrides
+    )
 
 @main.command("pypi-availability")
 @click.option("--names", required=True, help="Comma-separated list of candidate names.")
